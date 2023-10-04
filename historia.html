@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            width: 600px;
+            height: 20px;
+        }
+        </style>
 </head>
 <body>
     
@@ -15,19 +22,52 @@
         <li><a href="verbo.html">Verbo</a></li>
         <li><a href="competencia.html">Competencia</a></li>
         <li><a href="etapa.html">Etapa</a></li>
-        <li><a>Missão</a></li>
-        <li><a>Historia</a></li>
+        <li><a href="missão.html">Missão</a></li>
+        <li><a href="historia.html">Historia</a></li>
     </ul>
     <!--Menu Principal-->
 
     <h1 style="font-family: sans-serif;">Cadastro de Historia</h1>
 
-    Titulo da historia:<BR> <input type="text" id="start"><br>
+    
     <P>Descrição da aventura:</p> 
     <textarea rows="6" cols="50"></textarea>
-    <p>Fim da jornada:</p>
-    <textarea rows="6" cols="50"></textarea><br>
-    <input type="submit" id="plot">
+
+    <br><br>
+    <p>Selecione as missões para a historia:</p>
+    
+    <table>
+        <tr id="title">
+            <th>Titulo</th>
+            <th>Força</th>
+            <th>Total</th>
+            <th>Selecione</th>
+        </tr>
+        <tr id="second">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr id="third">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><input type="checkbox"</td>
+        </tr>
+        <tr >
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><input type="checkbox"</td>
+        </tr>
+        <tr id="fourth">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><input type="checkbox"></td>
+        </tr>
+    </table>
 
 </body>
 </html>

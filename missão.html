@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+    table, th, td{
+        border: 1px solid black;
+        width: 600px;
+        height: 20px;
+    }
+    </style>
 </head>
 <body>
     
@@ -22,8 +30,86 @@
 
     <h1 style="font-family: sans-serif;">Cadastro de Missões</h1>
 
-    Titulo da missão: <input type="text" id="title">
-    <p>Dano de ataque: <input type="number" id="dmg"></p>
+    <select>
+        <option selected disabled>Selecione um nivel Bloom</option>
+        <option value="memorizar">Memorizar</option>
+        <option value="compreender">Compreender</option>
+        <option value="aplicar">Aplicar</option>
+        <option value="analisar">Analisar</option>
+        <option value="avaliar">Avaliar</option>
+        <option value="criar">Criar</option>
+    </select>
+
+    <select>
+        <option selected disabled>Selecione nivel de força</option>
+        <option value="heero">1</option>
+        <option value="duo">2</option>
+        <option value="trowa">3</option>
+        <option value="quatre">4</option>
+        <option value="wuFei">5</option>
+    </select>
+
+    <select>
+        <option selected disabled>Selecione o tipo</option>
+        <option value="Conhecimento">Conhecimento</option>
+        <option value="Habilidade">Habilidade</option>
+        <option value="Atitude">Atitude</option>
+    </select>
     
+    <br>
+
+    <select>
+        <option selected disabled>Selecionar um verbo</option>
+        <option value="list">Listar</option>
+        <option value="remember">Relembrar</option>
+        <option value="recognize">Reconhecer</option>
+        <option value="identify">Identificar</option>
+        <option value="localize">Localizar</option>
+        <option value="describe">Descrever</option>
+        <option value="citate">Citar</option>
+    </select>
+
+    <select>
+        <option selected disabled>Selecionar uma competencia</option>
+        <option value="temporaryTemp">"Algo provisorio"</option>
+        <option value="incompatent">"Insira aqui competencia"</option>
+        <option value="usefull">"Será se é util?"</option>
+    </select>
+
+    <br><br>
+
+    <table>
+        <tr id="title">
+            <th>Instrução</th>
+            <th>Tipo</th>
+            <th>Pontuação</th>
+            <th>Selecione</th>
+        </tr>
+        <tr id="second">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr id="third">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><input type="checkbox"</td>
+        </tr>
+        <tr >
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><input type="checkbox"</td>
+        </tr>
+        <tr id="fourth">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><input type="checkbox"></td>
+        </tr>
+    </table>
+
 </body>
 </html>
